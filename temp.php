@@ -3,7 +3,7 @@
 //ini_set('display_startup_errors', 1);
 //error_reporting(E_ALL);
 $url = explode('?id=', $_SERVER['REQUEST_URI'])[1] ;
-//$url = 'https://cantelope.org/public_playlists/.base/temp.html';
+//$url = 'https://twilightparadox.com/public_playlists/.base/temp.html';
 $ch = curl_init(str_replace(" ","%20",$url));
   //curl_setopt($ch, CURLOPT_FILE, $fp);
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
